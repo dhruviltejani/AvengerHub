@@ -4,7 +4,7 @@ import { Building2 } from 'lucide-react';
 const Card = (props) => {
   return (
   
-    <div className='card h-150 w-full min-w-0 bg-[#FFFFFF] flex flex-col justify-around overflow-hidden' >
+    <div className='card h-155 w-full min-w-0 bg-[#FFFFFF] flex flex-col justify-around overflow-hidden' >
 
       <div className="topsection flex flex-col justify-between  h-60 w-full">
         <div className="headpart h-30 w-full font-light text-xl  pr-6  flex items-center justify-end">${props.perHourRate}/hr</div>
