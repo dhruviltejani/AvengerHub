@@ -17,7 +17,7 @@ const Card = (props) => {
 
       <div className="middlesection flex flex-col gap-2 mt-3 ">
         <div className="middleelement flex justify-center font-medium text-2xl">{props.name}</div>
-        <div className="middleelement flex justify-center font-extralight text-[14px]">{props.superpower}</div>
+        <div className="middleelement flex justify-center font-extralight text-[14px] text-center">{props.superpower}</div>
         <div className="middleelement flex justify-center items-center text-[#6FA9DE]"><Building2 size={15} />{props.type}</div>
 
       <div className="skill flex flex-wrap justify-center gap-2 mt-3 px-4 ">
